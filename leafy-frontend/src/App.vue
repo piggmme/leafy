@@ -7,7 +7,7 @@
     <div class="brand" v-if="isLoggedIn">
       LEAFY
     </div>
-    <NavBar v-if="isLoggedIn"></NavBar>    
+    <NavBar v-if="isLoggedIn"></NavBar>
     <div class="router-view-wrapper">
       <router-view></router-view>
     </div>
